@@ -16,8 +16,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore Backend/Backend.csproj
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build Backend/Backend.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet tes Backend/Backend.csprojt --no-build --verbosity normal
