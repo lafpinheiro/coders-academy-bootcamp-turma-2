@@ -16,7 +16,7 @@ namespace Backend.Model
         public String Name { get; set; }
         public String Email { get; set; }
         
-        [JsonIgnore] 
+        [JsonIgnore]
         public String Password { get; set; }
         
         public String Photo { get; set; }
