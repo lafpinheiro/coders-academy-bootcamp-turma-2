@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: dotnet build Backend/Backend.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet tes Backend/Backend.csprojt --no-build --verbosity normal
+      run: dotnet test Backend/Backend.csprojt --no-build --verbosity normal
