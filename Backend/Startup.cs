@@ -35,7 +35,7 @@ namespace Backend
 
             services.AddScoped(typeof(BaseRepository<>));
             services.AddScoped<UserRepository>();
-            services.AddScoped<AlbumRepository>();
+            services.AddScoped<IAlbumRepository,AlbumRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -12,8 +12,8 @@ namespace Backend.Controllers
     [ApiController]
     public class AlbumController : ControllerBase
     {
-        private AlbumRepository Repository { get; set; }
-        public AlbumController(AlbumRepository repository)
+        private IAlbumRepository Repository { get; set; }
+        public AlbumController(IAlbumRepository repository)
         {
             this.Repository = repository;
         }

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Repository
 {
-    public class AlbumRepository : BaseRepository<Album>, IRepository<Album>
+    public class AlbumRepository : BaseRepository<Album>, IRepository<Album>, IAlbumRepository
     {
         public AlbumRepository(AppDbContext context) : base(context)
         {
