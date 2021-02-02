@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\DeveloperExpertT2\\Backend\\test\\test.csproj": {}
+    "C:\\Projetos\\DeveloperExpertT2\\tests\\tests.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\DeveloperExpertT2\\Backend\\test\\test.csproj": {
+    "C:\\Projetos\\DeveloperExpertT2\\tests\\tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DeveloperExpertT2\\Backend\\test\\test.csproj",
-        "projectName": "test",
-        "projectPath": "C:\\Projetos\\DeveloperExpertT2\\Backend\\test\\test.csproj",
+        "projectUniqueName": "C:\\Projetos\\DeveloperExpertT2\\tests\\tests.csproj",
+        "projectName": "tests",
+        "projectPath": "C:\\Projetos\\DeveloperExpertT2\\tests\\tests.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DeveloperExpertT2\\Backend\\test\\obj\\",
+        "outputPath": "C:\\Projetos\\DeveloperExpertT2\\tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
