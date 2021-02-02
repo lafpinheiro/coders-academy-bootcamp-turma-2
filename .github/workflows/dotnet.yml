@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: dotnet build WebApi.sln --configuration Release --no-restore
     - name: Test
-      run: dotnet test WebApi.sln --no-build --verbosity normal
+      run: dotnet test WebApi.sln --verbosity normal
