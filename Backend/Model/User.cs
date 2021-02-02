@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 
 namespace Backend.Model
 {
@@ -14,8 +15,12 @@ namespace Backend.Model
         public Guid Id { get; set; }
         public String Name { get; set; }
         public String Email { get; set; }
+        
+        [JsonIgnore]
         public String Password { get; set; }
+        
         public String Photo { get; set; }
+        
         public IList<UserFavoriteMusic> FavoriteMusics { get; set; }
         
 
