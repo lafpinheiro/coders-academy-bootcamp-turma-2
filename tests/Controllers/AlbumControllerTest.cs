@@ -29,7 +29,7 @@ namespace tests.Controllers
             var result = await controller.Get();
 
             result.Should().NotBeNull();
-            (result as OkObjectResult).StatusCode.Should().Be(201);
+            (result as OkResult).StatusCode.Should().Be(201);
         }
 
         [Fact]
